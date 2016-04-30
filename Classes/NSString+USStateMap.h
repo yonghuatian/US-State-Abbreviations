@@ -8,4 +8,7 @@
 @interface NSString (USStateMap)
 - (NSString*) stateAbbreviationFromFullName;
 - (NSString*) stateFullNameFromAbbreviation;
+
+- (NSString *) stateAbbreviation;
+- (NSString *) stateFullName;
 @end
